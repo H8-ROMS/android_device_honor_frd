@@ -98,7 +98,7 @@ PRODUCT_PACKAGES += \
     tinypcminfo
 
 PRODUCT_COPY_FILES+= \
-	$(LOCAL_PATH)/audio/audio_policy.xml:system/etc/audio_policy.xml \
+	$(LOCAL_PATH)/audio/audio_policy.conf:system/etc/audio_policy.conf \
 	$(LOCAL_PATH)/audio/mixer_paths.xml:system/etc/mixer_paths.xml
 
 # Bluedroid conf
