@@ -20,9 +20,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/locales_full.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n.mk)
 
-# Inherit some common Validus stuff.
-$(call inherit-product, vendor/validus/config/common_full_phone.mk)
-$(call inherit-product, vendor/validus/config/caf_fw.mk)
+# Inherit some common Tesla stuff.
+$(call inherit-product, vendor/tesla/config/common_full_phone.mk)
+$(call inherit-product, vendor/tesla/config/gsm.mk)
+$(call inherit-product, vendor/tesla/config/caf_fw.mk)
+
+# Enhanced NFC
+$(call inherit-product, vendor/tesla/config/nfc_enhanced.mk)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1920
@@ -30,7 +34,7 @@ TARGET_SCREEN_WIDTH := 1080
 
 PRODUCT_GMS_CLIENTID_BASE := android-huawei
 
-PRODUCT_NAME := validus_frd
+PRODUCT_NAME := tesla_frd
 PRODUCT_DEVICE := frd
 PRODUCT_MANUFACTURER := Huawei
 PRODUCT_BRAND := Honor

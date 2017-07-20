@@ -1,1 +1,1 @@
-add_lunch_combo validus_frd-userdebug               
+add_lunch_combo tesla_frd-userdebug               

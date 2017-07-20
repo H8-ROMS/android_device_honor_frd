@@ -17,7 +17,7 @@
 $(call inherit-product-if-exists, vendor/honor/frd/frd-vendor.mk)
 
 # Overlay
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay vendor/extra/overlays/phone-1080p
 
 # Media configuration
 PRODUCT_COPY_FILES += \
