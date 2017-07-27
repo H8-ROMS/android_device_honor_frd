@@ -1,1 +1,1 @@
-add_lunch_combo mokee_frd-userdebug                                      
+add_lunch_combo mk_frd-userdebug                                      

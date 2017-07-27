@@ -33,11 +33,11 @@ $(call inherit-product, device/honor/frd/device.mk)
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := mokee_frd
+PRODUCT_NAME := mk_frd
 PRODUCT_DEVICE := frd
 PRODUCT_BRAND := Honor
-PRODUCT_MANUFACTURER := HUAWEI
-PRODUCT_MODEL := HONOR-8
+PRODUCT_MANUFACTURER := Huawei
+PRODUCT_MODEL := Honor 8
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1920
@@ -46,3 +46,6 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_GMS_CLIENTID_BASE := android-huawei
 
 TARGET_VENDOR := huawei
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.mk.maintainer=hackslashX (Muhammad Fahad Baig)
