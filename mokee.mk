@@ -20,8 +20,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n.mk)
 
 # Inherit some common Mokee stuff.
 $(call inherit-product, vendor/mk/config/common_full_phone.mk)
-$(call inherit-product, vendor/mk/config/common_full_phone.mk)
-$(call inherit-product, vendor/mk/config/gsm.mk)
 
 # Enhanced NFC
 $(call inherit-product, vendor/mk/config/nfc_enhanced.mk)
